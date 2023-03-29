@@ -144,19 +144,19 @@
   <form id="form-pagamento">
     <div class="form-group">
       <label for="nome_cartao">Nome no cartão:</label>
-      <input type="text" id="nome_cartao" name="nome_cartao" class="form-control">
+      <input type="text" id="nome_cartao" name="nome_cartao" class="form-control" required>
     </div>
     <div class="form-group">
       <label for="numero_cartao">Número do cartão:</label>
-      <input type="text" id="numero_cartao" name="numerocartao" class="form-control">
+      <input type="text" id="numero_cartao" name="numerocartao" class="form-control" required>
     </div>
     <div class="form-group">
     <label for="data_validade">Data de validade:</label>
-    <input type="text" id="data_validade" name="data_validade" class="form-control" placeholder="MM/AA">
+    <input type="text" id="data_validade" name="data_validade" class="form-control" placeholder="MM/AA" required>
     </div>
     <div class="form-group">
     <label for="codigo_seguranca">Código de segurança:</label>
-    <input type="text" id="codigo_seguranca" name="codigo_seguranca" class="form-control">
+    <input type="text" id="codigo_seguranca" name="codigo_seguranca" class="form-control" required>
     </div>
     <button type="submit" id="btn-pagamento" class="btn btn-primary">Processar pagamento</button>
     </form>
