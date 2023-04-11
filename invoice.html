@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Dashboard</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky">
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+            <li>
+              <form class="form-inline mr-auto">
+                <div class="search-element">
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" data-width="200">
+                  <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+              <span class="badge headerBadge1">
+                6 </span> </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+											text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Joana
+                      Silva</span>
+                    <span class="time messege-text">Serviço de quarto urgente!</span>
+                    <span class="time">5 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Manel
+                      Antunes</span> <span class="time messege-text">Faltou a luz no piso 1</span>
+                    <span class="time">13 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Hugo
+                      Rolando</span> <span class="time messege-text">Falta de pagamento</span> <span class="time">1 dia</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Gonçalo
+                      Farinha</span> <span class="time messege-text">Abastecimento de arroz
+                      pendente.</span> <span class="time">1 dia </span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Tiago
+                      Campos</span> <span class="time messege-text">Dúvida em relação ao
+                      quarto (nº4).</span> <span class="time">2
+                      dias</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Josefina
+                      Rufino</span> <span class="time messege-text">Erro de pagamentos</span>
+                    <span class="time">3 dias</span>
+                  </span>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas como lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="#" class="dropdown-item dropdown-item-unread"> <span
+                    class="dropdown-item-icon bg-primary text-white"> <i class="fas
+												fa-code"></i>
+                  </span> <span class="dropdown-item-desc"> Update <span class="time">2 minutos
+                      </span>
+                  </span>
+               
+
+              
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/users/user-4.png"
+                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+            <div class="dropdown-menu dropdown-menu-right pullDown">
+              <div class="dropdown-title">Bem-vindo Admin1</div>
+              <a href="profile.html" class="dropdown-item has-icon"> <i class="far
+										fa-user"></i> Perfil
+             
+              </a> <a href="#" class="dropdown-item has-icon"> <i class="fas fa-cog"></i>
+                Configurações
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="auth-login.html" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"> <img alt="image" src="assets/img/hotel.png" class="header-logo" /> <span
+                class="logo-name">CidalHotel</span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
+            <li class="menu-header">Menu</li>
+            <li class="dropdown">
+              <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="calendar"></i><span>Calendário</span></a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="nav-link" href="calendar.html">Calendário</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="email-inbox.html">Ver recebidos</a></li>
+                <li><a class="nav-link" href="email-compose.html">Compor</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="layout"></i><span>Reservas</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="reservas.html">Ver reservas</a></li>
+                <li><a class="nav-link" href="addreserva.html">Criar reserva</a></li>
+     
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Outras ações</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="clientes.html">Clientes</a></li>
+                <li><a class="nav-link" href="funcionarios.html">Funcionários</a></li>
+                <li><a class="nav-link" href="quartos.html">Quartos</a></li>
+                
+                
+
+
+              </ul>
+            </li>
+            
+            
+            <li class="menu-header">Outras páginas</li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="user-check"></i><span>Autorizações</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="auth-login.html">Login</a></li>
+                <li><a href="auth-forgot-password.html">Password Esquecida</a></li>
+                <li><a href="auth-reset-password.html">Resetar Password</a></li>
+              </ul>
+            </li>
+           
+          
+            
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+      </div>  
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-body">
+            <div class="invoice">
+              <div class="invoice-print">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="invoice-title">
+                      <h2>Fatura</h2>
+                      <div class="invoice-number">Reserva #345</div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <address>
+                          <strong>Fatura para:</strong><br>
+                          Cliente X<br>
+                          Rua Ramalho Ortigão, 55,<br>
+                          Viseu,<br>
+                          3505-552, Portugal
+                        </address>
+                      </div>
+                      <div class="col-md-6 text-md-right">
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <address>
+                          <strong>Método de pagamento utilizado:</strong><br>
+                          Visa  **** 5687<br>
+                          cliente@gmail.com
+                        </address>
+                      </div>
+                      <div class="col-md-6 text-md-right">
+                        <address>
+                          <strong>Data da reserva:</strong><br>
+                          22  de Junho, 2023<br><br>
+                        </address>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-12">
+                    <div class="section-title">Resumo da reserva</div>
+                    <div class="table-responsive">
+                      <table class="table table-striped table-hover table-md">
+                        <tr>
+                          <th data-width="40">#</th>
+                          <th>Quarto</th>
+                          <th class="text-center">Preço</th>
+                          <th class="text-center">Pessoas</th>
+                          <th class="text-right">Total</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>Suíte Deluxe</td>
+                          <td class="text-center">600€</td>
+                          <td class="text-center">4</td>
+                          <td class="text-right">600€</td>
+                        </tr>
+                        <tr>
+                          <td>1.2</td>
+                          <td>Utilização do ginásio</td>
+                          <td class="text-center">50€</td>
+                          <td class="text-center">4</td>
+                          <td class="text-right">200€</td>
+                        </tr>
+                        <tr>
+                          <td>1.3</td>
+                          <td>Utilização do spa</td>
+                          <td class="text-center">65€</td>
+                          <td class="text-center">2</td>
+                          <td class="text-right">130€</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-8">
+                        <div class="section-title">Métodos de pagamento</div>
+                        <p class="section-lead">O método de pagamento que fornecemos é para facilitar o pagamento das
+                          faturas.</p>
+                        <div class="images">
+                          <img src="assets/img/cards/visa.png" alt="visa">
+                          <img src="assets/img/cards/jcb.png" alt="jcb">
+                          <img src="assets/img/cards/mastercard.png" alt="mastercard">
+                          <img src="assets/img/cards/paypal.png" alt="paypal">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 text-right">
+                        <div class="invoice-detail-item">
+                          <div class="invoice-detail-name">Subtotal</div>
+                          <div class="invoice-detail-value">930€</div>
+                        </div>
+                        
+                        <hr class="mt-2 mb-2">
+                        <div class="invoice-detail-item">
+                          <div class="invoice-detail-name">Total</div>
+                          <div class="invoice-detail-value invoice-detail-value-lg">930,00€</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+             
+                <button class="btn btn-warning btn-icon icon-left"><i class="fas fa-print"></i> Imprimir</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="settingSidebar">
+          <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+          </a>
+          <div class="settingSidebar-body ps-container ps-theme-default">
+            <div class=" fade show active">
+              <div class="setting-panel-header">Setting Panel
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Select Layout</h6>
+                <div class="selectgroup layout-color w-50">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked>
+                    <span class="selectgroup-button">Light</span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                    <span class="selectgroup-button">Dark</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Sidebar Color</h6>
+                <div class="selectgroup selectgroup-pills sidebar-color">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Light Sidebar"><i class="fas fa-sun"></i></span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked>
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Dark Sidebar"><i class="fas fa-moon"></i></span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Color Theme</h6>
+                <div class="theme-setting-options">
+                  <ul class="choose-theme list-unstyled mb-0">
+                    <li title="white" class="active">
+                      <div class="white"></div>
+                    </li>
+                    <li title="cyan">
+                      <div class="cyan"></div>
+                    </li>
+                    <li title="black">
+                      <div class="black"></div>
+                    </li>
+                    <li title="purple">
+                      <div class="purple"></div>
+                    </li>
+                    <li title="orange">
+                      <div class="orange"></div>
+                    </li>
+                    <li title="green">
+                      <div class="green"></div>
+                    </li>
+                    <li title="red">
+                      <div class="red"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="mini_sidebar_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Mini Sidebar</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="sticky_header_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Sticky Header</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                  <i class="fas fa-undo"></i> Restore Default
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          <a href="templateshub.net">CidalHotel</a></a>
+        </div>
+        <div class="footer-right">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- General JS Scripts -->
+  <script src="assets/js/app.min.js"></script>
+  <!-- JS Libraies -->
+  <!-- Page Specific JS File -->
+  <!-- Template JS File -->
+  <script src="assets/js/scripts.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- invoice.html  21 Nov 2019 04:05:05 GMT -->
+</html>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Dashboard</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky">
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+            <li>
+              <form class="form-inline mr-auto">
+                <div class="search-element">
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" data-width="200">
+                  <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+              <span class="badge headerBadge1">
+                6 </span> </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+											text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Joana
+                      Silva</span>
+                    <span class="time messege-text">Serviço de quarto urgente!</span>
+                    <span class="time">5 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Manel
+                      Antunes</span> <span class="time messege-text">Faltou a luz no piso 1</span>
+                    <span class="time">13 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Hugo
+                      Rolando</span> <span class="time messege-text">Falta de pagamento</span> <span class="time">1 dia</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Gonçalo
+                      Farinha</span> <span class="time messege-text">Abastecimento de arroz
+                      pendente.</span> <span class="time">1 dia </span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Tiago
+                      Campos</span> <span class="time messege-text">Dúvida em relação ao
+                      quarto (nº4).</span> <span class="time">2
+                      dias</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Josefina
+                      Rufino</span> <span class="time messege-text">Erro de pagamentos</span>
+                    <span class="time">3 dias</span>
+                  </span>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas como lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="#" class="dropdown-item dropdown-item-unread"> <span
+                    class="dropdown-item-icon bg-primary text-white"> <i class="fas
+												fa-code"></i>
+                  </span> <span class="dropdown-item-desc"> Update <span class="time">2 minutos
+                      </span>
+                  </span>
+               
+
+              
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/users/user-4.png"
+                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+            <div class="dropdown-menu dropdown-menu-right pullDown">
+              <div class="dropdown-title">Bem-vindo Admin1</div>
+              <a href="profile.html" class="dropdown-item has-icon"> <i class="far
+										fa-user"></i> Perfil
+             
+              </a> <a href="#" class="dropdown-item has-icon"> <i class="fas fa-cog"></i>
+                Configurações
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="auth-login.html" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"> <img alt="image" src="assets/img/hotel.png" class="header-logo" /> <span
+                class="logo-name">CidalHotel</span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
+            <li class="menu-header">Menu</li>
+            <li class="dropdown">
+              <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="calendar"></i><span>Calendário</span></a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="nav-link" href="calendar.html">Calendário</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="email-inbox.html">Ver recebidos</a></li>
+                <li><a class="nav-link" href="email-compose.html">Compor</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="layout"></i><span>Reservas</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="reservas.html">Ver reservas</a></li>
+                <li><a class="nav-link" href="addreserva.html">Criar reserva</a></li>
+     
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Outras ações</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="clientes.html">Clientes</a></li>
+                <li><a class="nav-link" href="funcionarios.html">Funcionários</a></li>
+                <li><a class="nav-link" href="quartos.html">Quartos</a></li>
+                
+                
+
+
+              </ul>
+            </li>
+            
+            
+            <li class="menu-header">Outras páginas</li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="user-check"></i><span>Autorizações</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="auth-login.html">Login</a></li>
+                <li><a href="auth-forgot-password.html">Password Esquecida</a></li>
+                <li><a href="auth-reset-password.html">Resetar Password</a></li>
+              </ul>
+            </li>
+           
+          
+            
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+      </div>  
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-body">
+            <div class="row mt-sm-4">
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card author-box">
+                  <div class="card-body">
+                    <div class="author-box-center">
+                      <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle author-box-picture">
+                      <div class="clearfix"></div>
+                      <div class="author-box-name">
+                        <br>
+                        <a href="#">Admin - José Manel</a>
+                      </div>
+                      <div class="author-box-job">Administrador de sistema </div>
+                    </div>
+                    <div class="text-center">
+                      <div class="author-box-description">
+                        <p>
+                         Responsável por administrar e gerir dashboard.
+                        </p>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Detalhes Pessoais</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="py-4">
+                      <p class="clearfix">
+                        <span class="float-left">
+                          Data de nascimento:
+                        </span>
+                        <span class="float-right text-muted">
+                          30-05-1998
+                        </span>
+                      </p>
+                      <p class="clearfix">
+                        <span class="float-left">
+                          Nº telemóvel
+                        </span>
+                        <span class="float-right text-muted">
+                          +351 935977988
+                        </span>
+                      </p>
+                      <p class="clearfix">
+                        <span class="float-left">
+                          Email
+                        </span>
+                        <span class="float-right text-muted">
+                          Maneladmin@cidalhotel.com
+                        </span>
+                      </p>
+                      <p class="clearfix">
+                       
+                       
+                      </p>
+                      <p class="clearfix">
+                       
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Skills</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled user-progress list-unstyled-border list-unstyled-noborder">
+                      <li class="media">
+                        <div class="media-body">
+                          <div class="media-title">Java</div>
+                        </div>
+                        <div class="media-progressbar p-t-10">
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-primary" data-width="70%"></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-body">
+                          <div class="media-title">Web Design</div>
+                        </div>
+                        <div class="media-progressbar p-t-10">
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-warning" data-width="80%"></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-body">
+                          <div class="media-title">Photoshop</div>
+                        </div>
+                        <div class="media-progressbar p-t-10">
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-green" data-width="48%"></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-8">
+                <div class="card">
+                  <div class="padding-20">
+                    <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="home-tab2" data-toggle="tab" href="#about" role="tab"
+                          aria-selected="true">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="profile-tab2" data-toggle="tab" href="#settings" role="tab"
+                          aria-selected="false">Definições</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content tab-bordered" id="myTab3Content">
+                      <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="home-tab2">
+                        <div class="row">
+                          <div class="col-md-3 col-6 b-r">
+                            <strong>Nome completo</strong>
+                            <br>
+                            <p class="text-muted">José Manel</p>
+                          </div>
+                          <div class="col-md-3 col-6 b-r">
+                            <strong>Nº telemóvel</strong>
+                            <br>
+                            <p class="text-muted">+351 935977988</p>
+                          </div>
+                          <div class="col-md-3 col-6 b-r">
+                            <strong>Email</strong>
+                            <br>
+                            <p class="text-muted">                          Maneladmin@cidalhotel.com
+                            </p>
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <strong>Localização</strong>
+                            <br>
+                            <p class="text-muted">Portugal</p>
+                          </div>
+                        </div>
+                        <p class="m-t-30">Concluí a minha graduação em Artes pela conhecida e
+                          renomada instituição
+                          da Índia - SARDAR PATEL ARTS COLLEGE, BARODA em 2000-01, que foi
+                          afiliado
+                          para MS Universidade. Eu classificado em exames universitários do mesmo
+                          universidade
+                          de 1996-01.</p>
+                        <p>Trabalhou como professor e chefe de departamento na Sarda Collage, Rajkot,
+                          Gujarat
+                          de 2003-2015 </p>
+                      
+                        <div class="section-title">Educaçao</div>
+                        <ul>
+                          <li>
+BA, Universidade de Gujarat, Ahmedabad, Índia.
+M.A., Gujarat University, Ahmedabad, Índia
+P.H.D., Shaurashtra University, Rajkot</l</li>
+                          <li>
+BA, Universidade de Gujarat, Ahmedabad, Índia.
+M.A., Gujarat University, Ahmedabad, Índia
+P.H.D., Shaurashtra University, Rajkot</l.</li>
+                          <li>
+BA, Universidade de Gujarat, Ahmedabad, Índia.
+M.A., Gujarat University, Ahmedabad, Índia
+P.H.D., Shaurashtra University, Rajkot</li>
+                        </ul>
+                        <div class="section-title">Experiência</div>
+                        <ul>
+                         <li>Experiência de um ano como Professor Jr. de abril de 2009 a março de 2010
+                            em B.
+                            J. Arts College, Ahmedabad.</li>
+                          <li>Experiência de três anos como professor júnior na V.S. Artes &amp; Commerse
+                            Colagem
+                            de abril - 2008 a abril - 2011.</li>
+                          
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="profile-tab2">
+                        <form method="post" class="needs-validation">
+                          <div class="card-header">
+                            <h4>Editar Perfil</h4>
+                          </div>
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="form-group col-md-6 col-12">
+                                <label>Primeiro Nome</label>
+                                <input type="text" class="form-control" value="José">
+                                <div class="invalid-feedback">
+                                  Por favor preencha com o seu primeiro nome.
+                                </div>
+                              </div>
+                              <div class="form-group col-md-6 col-12">
+                                <label>Último Nome</label>
+                                <input type="text" class="form-control" value="Manuel">
+                                <div class="invalid-feedback">
+                                  Por favor preencha com o seu último nome.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group col-md-7 col-12">
+                                <label>Email</label>
+                                <input type="email" class="form-control" value="teste@exemplo.com">
+                                <div class="invalid-feedback">
+                                  Por favor preencha com o seu email.
+                                </div>
+                              </div>
+                              <div class="form-group col-md-5 col-12">
+                                <label>Nº telemóvel</label>
+                                <input type="tel" class="form-control" value="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group col-12">
+                                <label>Bio</label>
+                                <textarea
+                                  class="form-control summernote-simple"></textarea>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group mb-0 col-12">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" name="remember" class="custom-control-input" id="newsletter">
+                                  
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer text-right">
+                            <button class="btn btn-primary">Save Changes</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="settingSidebar">
+          <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+          </a>
+          <div class="settingSidebar-body ps-container ps-theme-default">
+            <div class=" fade show active">
+              <div class="setting-panel-header">Configurar painel
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Seleciona o layout</h6>
+                <div class="selectgroup layout-color w-50">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked>
+                    <span class="selectgroup-button">Claro</span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                    <span class="selectgroup-button">Escuro</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Cores do menu lateral</h6>
+                <div class="selectgroup selectgroup-pills sidebar-color">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Claro"><i class="fas fa-sun"></i></span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked>
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Escuro"><i class="fas fa-moon"></i></span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Cores</h6>
+                <div class="theme-setting-options">
+                  <ul class="choose-theme list-unstyled mb-0">
+                    <li title="white" class="active">
+                      <div class="white"></div>
+                    </li>
+                    <li title="ciano">
+                      <div class="cyan"></div>
+                    </li>
+                    <li title="preto">
+                      <div class="black"></div>
+                    </li>
+                    <li title="roxo">
+                      <div class="purple"></div>
+                    </li>
+                    <li title="laranja">
+                      <div class="orange"></div>
+                    </li>
+                    <li title="verde">
+                      <div class="green"></div>
+                    </li>
+                    <li title="vermelho">
+                      <div class="red"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="mini_sidebar_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Mini menu lateral</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="sticky_header_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10"> Header</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                  <i class="fas fa-undo"></i> Restaurar definições default
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          <a href="index.html">CidalHotel</a></a>
+        </div>
+        <div class="footer-right">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- General JS Scripts -->
+  <script src="assets/js/app.min.js"></script>
+  <!-- JS Libraies -->
+  <script src="assets/bundles/summernote/summernote-bs4.js"></script>
+  <!-- Page Specific JS File -->
+  <!-- Template JS File -->
+  <script src="assets/js/scripts.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- profile.html  21 Nov 2019 03:49:32 GMT -->
+</html>

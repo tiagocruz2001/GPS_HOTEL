@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Dashboard</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky">
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+            <li>
+              <form class="form-inline mr-auto">
+                <div class="search-element">
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" data-width="200">
+                  <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+              <span class="badge headerBadge1">
+                6 </span> </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+											text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Joana
+                      Silva</span>
+                    <span class="time messege-text">Serviço de quarto urgente!</span>
+                    <span class="time">5 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Manel
+                      Antunes</span> <span class="time messege-text">Faltou a luz no piso 1</span>
+                    <span class="time">13 minutos</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Hugo
+                      Rolando</span> <span class="time messege-text">Falta de pagamento</span> <span class="time">1 dia</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Gonçalo
+                      Farinha</span> <span class="time messege-text">Abastecimento de arroz
+                      pendente.</span> <span class="time">1 dia </span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Tiago
+                      Campos</span> <span class="time messege-text">Dúvida em relação ao
+                      quarto (nº4).</span> <span class="time">2
+                      dias</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Josefina
+                      Rufino</span> <span class="time messege-text">Erro de pagamentos</span>
+                    <span class="time">3 dias</span>
+                  </span>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notificações
+                <div class="float-right">
+                  <a href="#">Marcar todas como lidas</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="#" class="dropdown-item dropdown-item-unread"> <span
+                    class="dropdown-item-icon bg-primary text-white"> <i class="fas
+												fa-code"></i>
+                  </span> <span class="dropdown-item-desc"> Update <span class="time">2 minutos
+                      </span>
+                  </span>
+               
+
+              
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">Ver todas <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/users/user-4.png"
+                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+            <div class="dropdown-menu dropdown-menu-right pullDown">
+              <div class="dropdown-title">Bem-vindo Admin1</div>
+              <a href="profile.html" class="dropdown-item has-icon"> <i class="far
+										fa-user"></i> Perfil
+             
+              </a> <a href="#" class="dropdown-item has-icon"> <i class="fas fa-cog"></i>
+                Configurações
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="auth-login.html" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"> <img alt="image" src="assets/img/hotel.png" class="header-logo" /> <span
+                class="logo-name">CidalHotel</span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
+            <li class="menu-header">Menu</li>
+            <li class="dropdown">
+              <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="calendar"></i><span>Calendário</span></a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="nav-link" href="calendar.html">Calendário</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="email-inbox.html">Ver recebidos</a></li>
+                <li><a class="nav-link" href="email-compose.html">Compor</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="layout"></i><span>Reservas</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="reservas.html">Ver reservas</a></li>
+                <li><a class="nav-link" href="addreserva.html">Criar reserva</a></li>
+     
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Outras ações</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="clientes.html">Clientes</a></li>
+                <li><a class="nav-link" href="funcionarios.html">Funcionários</a></li>
+                <li><a class="nav-link" href="quartos.html">Quartos</a></li>
+                
+                
+
+
+              </ul>
+            </li>
+            
+            
+            <li class="menu-header">Outras páginas</li>
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="user-check"></i><span>Autorizações</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="auth-login.html">Login</a></li>
+                <li><a href="auth-forgot-password.html">Password Esquecida</a></li>
+                <li><a href="auth-reset-password.html">Resetar Password</a></li>
+              </ul>
+            </li>
+           
+          
+            
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+      </div>   
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-body">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Clientes</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-striped table-hover" id="tableExport" style="width:100%;">
+                        <thead>
+                          <tr>
+                            <th>Nome</th>
+                            <th>Data de entrada</th>
+                            <th>Email</th>  
+                            <th>Contacto</th>
+                            <th>NIF</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>José Fadoga</td>
+                            <td>18-01-2020</td>
+                            <td>jose_fadoga@gmail.com</td>
+                            <td>963455098</td>
+                            <td>354637489</td>
+                          </tr>
+                          <tr>
+                            <td>Maria Silva</td>
+                            <td>22-05-2019</td>
+                            <td>maria.silva@hotmail.com</td>
+                            <td>967123456</td>
+                            <td>123456789</td>
+                          </tr>
+                          <tr>
+                            <td>João Martins</td>
+                            <td>10-11-2020</td>
+                            <td>jmartins@gmail.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Ana Ferreira</td>
+                            <td>03-09-2021</td>
+                            <td>anaferreira@outlook.com</td>
+                            <td>919876543</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Paulo Costa</td>
+                            <td>17-02-2022</td>
+                            <td>paulocosta@yahoo.com.br</td>
+                            <td>936548721</td>
+                            <td>963258741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carla Vieira</td>
+                            <td>30-06-2022</td>
+                            <td>carla.vieira@gmail.com</td>
+                            <td>911223344</td>
+                            <td>558877446</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Luís Oliveira</td>
+                            <td>12-11-2020</td>
+                            <td>luisoliveira@hotmail.com</td>
+                            <td>926548712</td>
+                            <td>357846912</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Susana Santos</td>
+                            <td>05-04-2021</td>
+                            <td>susanasantos@outlook.com</td>
+                            <td>936987654</td>
+                            <td>159753468</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Ricardo Carvalho</td>
+                            <td>25-12-2022</td>
+                            <td>ricardo_carvalho@gmail.com</td>
+                            <td>911234567</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Marta Pereira</td>
+                            <td>30-07-2023</td>
+                            <td>martapereira@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>369852147</td>
+                          </tr>
+    
+                          <tr>
+                            <td>António Ferreira</td>
+                            <td>01-01-2020</td>
+                            <td>antonioferreira@outlook.com</td>
+                            <td>926548713</td>
+                            <td>258963147</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Diana Gonçalves</td>
+                            <td>14-06-2021</td>
+                            <td>diana.goncalves@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Tomás Ferreira</td>
+                            <td>17-03-2022</td>
+                            <td>tomasferreira@hotmail.com</td>
+                            <td>936548712</td>
+                            <td>654789123</td>
+                          </tr>
+                          <tr>
+                            <td>Sofia Oliveira</td>
+                            <td>09-11-2022</td>
+                            <td>sofiaoliveira@yahoo.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Hugo Santos</td>
+                            <td>22-02-2021</td>
+                            <td>hugosantos@gmail.com</td>
+                            <td>919876543</td>
+                            <td>963852741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Joana Rodrigues</td>
+                            <td>08-05-2020</td>
+                            <td>joanarodrigues@hotmail.com</td>
+                            <td>912345678</td>
+                            <td>159753486</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Pedro Almeida</td>
+                            <td>16-08-2023</td>
+                            <td>pedroalmeida@gmail.com</td>
+                            <td>936548712</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Margarida Nunes</td>
+                            <td>19-01-2021</td>
+                            <td>margaridanunes@yahoo.com.br</td>
+                            <td>911234567</td>
+                            <td>123456789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Tiago Mendes</td>
+                            <td>28-09-2022</td>
+                            <td>tiagomendes@outlook.com</td>
+                            <td>919876543</td>
+                            <td>369852147</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carolina Costa</td>
+                            <td>07-07-2020</td>
+                            <td>carolcosta@gmail.com</td>
+                            <td>912345678</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Manuel Fernandes</td>
+                            <td>26-12-2022</td>
+                            <td>m.fernandes@yahoo.com</td>
+                            <td>936548712</td>
+                            <td>258963147</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Ana Paula Santos</td>
+                            <td>11-05-2023</td>
+                            <td>anapaulasantos@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Mário Sousa</td>
+                            <td>13-09-2021</td>
+                            <td>mariosousa@outlook.com</td>
+                            <td>936987654</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Cláudia Costa</td>
+                            <td>19-02-2020</td>
+                            <td>claudiacosta@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Fernando Gomes</td>
+                            <td>27-07-2023</td>
+                            <td>fernandogomes@yahoo.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                            </tr>
+                            <tr>
+                              <td>Marta Costa</td>
+                              <td>30-11-2022</td>
+                              <td>martacosta@hotmail.com</td>
+                              <td>919876543</td>
+                              <td>321654987</td>
+                            </tr>
+      
+                            <tr>
+                              <td>João Silva</td>
+                              <td>04-06-2021</td>
+                              <td>joaosilva@yahoo.com.br</td>
+                              <td>911234567</td>
+                              <td>963852741</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Margarida Costa</td>
+                              <td>02-09-2022</td>
+                              <td>margaridacosta@gmail.com</td>
+                              <td>936548712</td>
+                              <td>159753486</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Rafael Santos</td>
+                              <td>15-03-2023</td>
+                              <td>rafaelsantos@hotmail.com</td>
+                              <td>911223344</td>
+                              <td>456123789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Sara Costa</td>
+                              <td>20-12-2021</td>
+                              <td>saracosta@gmail.com</td>
+                              <td>919876543</td>
+                              <td>741852963</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Jorge Matos</td>
+                              <td>09-08-2023</td>
+                              <td>jorgematos@yahoo.com.br</td>
+                              <td>912345678</td>
+                              <td>123456789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Miguel Pereira</td>
+                              <td>28-02-2022</td>
+                              <td>miguelpereira@outlook.com</td>
+                              <td>936987654</td>
+                              <td>369852147</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Andreia Santos</td>
+                              <td>21-01-2020</td>
+                              <td>andreiasantos@gmail.com</td>
+                              <td>917654321</td>
+                              <td>789456123</td>
+                            </tr>
+      
+                            <tr>
+                              <td>António Marques</td>
+                              <td>05-07-2021</td>
+                              <td>antonio_marques@hotmail.com</td>
+                              <td>912345678</td>
+                              <td>987654321</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Lara Fernandes</td>
+                              <td>11-12-2022</td>
+                              <td>laraf@hotmail.com</td>
+                              <td>919876543</td>
+                              <td>321654987</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Francisco Silva</td>
+                              <td>01-05-2023</td>
+                              <td>franciscosilva@yahoo.com.br</td>
+                              <td>911234567</td>
+                              <td>963852741</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Beatriz Alves</td>
+                              <td>27-06-2022</td>
+                              <td>beatrizalves@gmail.com</td>
+                            <td>936548712</td>
+                            <td>159753486</td>
+                          </tr>
+                          <tr>
+                            <td>Luís Gomes</td>
+                            <td>08-10-2023</td>
+                            <td>luisgomes@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Diana Costa</td>
+                            <td>13-09-2021</td>
+                            <td>dianacosta@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Manuel Leite</td>
+                            <td>02-04-2022</td>
+                            <td>manuelleite@gmail.com</td>
+                            <td>912345678</td>
+                            <td>123456789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carla Costa</td>
+                            <td>16-08-2023</td>
+                            <td>carlacosta@hotmail.com</td>
+                            <td>936987654</td>
+                            <td>369852147</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Paulo Teixeira</td>
+                            <td>25-06-2021</td>
+                            <td>pauloteixeira@outlook.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Renata Rodrigues</td>
+                            <td>10-02-2022</td>
+                            <td>renatarodrigues@gmail.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carlos Santos</td>
+                            <td>03-07-2023</td>
+                            <td>carlossantos@hotmail.com</td>
+                            <td>919876543</td>
+                            <td>321654987</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Isabel Silva</td>
+                            <td>19-05-2022</td>
+                            <td>isabelsilva@yahoo.com.br</td>
+                            <td>911234567</td>
+                            <td>963852741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>David Ferreira</td>
+                            <td>23-11-2022</td>
+                            <td>davidferreira@gmail.com</td>
+                            <td>936548712</td>
+                            <td>159753486</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Catarina Sousa</td>
+                            <td>17-03-2021</td>
+                            <td>catarinasousa@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Rita Santos</td>
+                            <td>12-02-2023</td>
+                            <td>ritasantos@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Joana Lima</td>
+                            <td>07-09-20-2023</td>
+                            <td>joanlima@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+                          <tr>
+                            <td>Miguel Silva</td>
+                            <td>01-11-2021</td>
+                            <td>miguelsilva@outlook.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Sofia Vieira</td>
+                            <td>22-07-2022</td>
+                            <td>sofiavieira@hotmail.com</td>
+                            <td>919876543</td>
+                            <td>321654987</td>
+                          </tr>
+    
+                          <tr>
+                            <td>José Ferreira</td>
+                            <td>11-06-2023</td>
+                            <td>joseferreira@yahoo.com.br</td>
+                            <td>911234567</td>
+                            <td>963852741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carolina Sousa</td>
+                            <td>28-01-2022</td>
+                            <td>carolinasousa@gmail.com</td>
+                            <td>936548712</td>
+                            <td>159753486</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Luísa Santos</td>
+                            <td>05-04-2021</td>
+                            <td>luisasantos@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Gonçalo Ribeiro</td>
+                            <td>16-03-2022</td>
+                            <td>goncaloribeiro@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Clara Costa</td>
+                            <td>19-08-2022</td>
+                            <td>claracosta@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Sara Alves</td>
+                            <td>08-12-2021</td>
+                            <td>saraalves@outlook.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>André Santos</td>
+                            <td>27-06-2023</td>
+                            <td>andresantos@hotmail.com</td>
+                            <td>919876543</td>
+                            <td>321654987</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Inês Ferreira</td>
+                            <td>14-05-2022</td>
+                            <td>inesferreira@yahoo.com.br</td>
+                            <td>911234567</td>
+                            <td>963852741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Pedro Gomes</td>
+                            <td>21-02-2023</td>
+                            <td>pedrogomes@gmail.com</td>
+                            <td>936548712</td>
+                            <td>159753486</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Júlia Marques</td>
+                            <td>07-09-2022</td>
+                            <td>juliamarques@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+                          <tr>
+                            <td>Simão Oliveira</td>
+                            <td>18-03-2022</td>
+                            <td>simaooliveira@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Ana Sousa</td>
+                            <td>29-08-2022</td>
+                            <td>anasousa@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Diogo Nunes</td>
+                            <td>09-01-2023</td>
+                            <td>diogonunes@outlook.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Sofia Pereira</td>
+                            <td>26-07-2022</td>
+                            <td>sofiapereira@hotmail.com</td>
+                            <td>919876543</td>
+                            <td>321654987</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Filipe Santos</td>
+                            <td>12-06-2023</td>
+                            <td>filipesantos@yahoo.com.br</td>
+                            <td>911234567</td>
+                            <td>963852741</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Marta Costa</td>
+                            <td>01-02-2023</td>
+                            <td>martacosta@gmail.com</td>
+                            <td>936548712</td>
+                            <td>159753486</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Manuel Silva</td>
+                            <td>08-05-2022</td>
+                            <td>manuelsilva@hotmail.com</td>
+                            <td>911223344</td>
+                            <td>456123789</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Carla Ribeiro</td>
+                            <td>17-03-2022</td>
+                            <td>carlaribeiro@yahoo.com.br</td>
+                            <td>919876543</td>
+                            <td>741852963</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Ricardo Alves</td>
+                            <td>30-08-2022</td>
+                            <td>ricardoalves@gmail.com</td>
+                            <td>917654321</td>
+                            <td>789456123</td>
+                          </tr>
+    
+                          <tr>
+                            <td>Beatriz Fernandes</td>
+                            <td>10-12-2021</td>
+                            <td>beatrizfernandes@outlook.com</td>
+                            <td>912345678</td>
+                            <td>987654321</td>
+                          </tr>
+    
+                          <tr>
+                            <td>João Santos</td>
+                            <td>25-07-2022</td>
+                            <td>joaosantos@hotmail.com</td>
+                            <td>919876543</td>
+                            <td>321654987<td>
+                              <tr>
+                              <td>Marina Costa</td>
+                              <td>03-11-2022</td>
+                              <td>marinacosta@gmail.com</td>
+                              <td>936548712</td>
+                              <td>159753486</td>
+                            </tr>
+                            <tr>
+                              <td>Luís Mendes</td>
+                              <td>09-05-2022</td>
+                              <td>luismendes@hotmail.com</td>
+                              <td>911223344</td>
+                              <td>456123789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Patrícia Silva</td>
+                              <td>14-02-2022</td>
+                              <td>patriciasilva@yahoo.com.br</td>
+                              <td>919876543</td>
+                              <td>741852963</td>
+                            </tr>
+      
+                            <tr>
+                              <td>André Santos</td>
+                              <td>01-09-2022</td>
+                              <td>andresantos@gmail.com</td>
+                              <td>917654321</td>
+                              <td>789456123</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Cátia Costa</td>
+                              <td>20-12-2021</td>
+                              <td>catiacosta@outlook.com</td>
+                              <td>912345678</td>
+                              <td>987654321</td>
+                            </tr>
+      
+                            <tr>
+                              <td>David Fernandes</td>
+                              <td>15-07-2022</td>
+                              <td>davidfernandes@hotmail.com</td>
+                              <td>919876543</td>
+                              <td>321654987</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Carolina Santos</td>
+                              <td>05-06-2023</td>
+                              <td>carolinasantos@yahoo.com.br</td>
+                              <td>911234567</td>
+                              <td>963852741</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Rita Sousa</td>
+                              <td>25-02-2023</td>
+                              <td>ritasousa@gmail.com</td>
+                              <td>936548712</td>
+                              <td>159753486</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Ricardo Castro</td>
+                              <td>10-04-2023</td>
+                              <td>ricardocastro@hotmail.com</td>
+                              <td>911223344</td>
+                              <td>456123789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Isabel Pereira</td>
+                              <td>19-03-2022</td>
+                              <td>isabelpereira@yahoo.com.br</td>
+                              <td>919876543</td>
+                              <td>741852963</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Tomás Marques</td>
+                              <td>08-08-2022</td>
+                              <td>tomasmarques@gmail.com</td>
+                              <td>917654321</td>
+                              <td>789456123</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Simone Santos</td>
+                              <td>12-01-2023</td>
+                              <td>simonesantos@outlook.com</td>
+                              <td>912345678</td>
+                              <td>123456789</td>
+                            </tr>
+                            <tr>
+                              <td>Júlio Silva</td>
+                              <td>30-06-2023</td>
+                              <td>juliosilva@gmail.com</td>
+                              <td>919876543</td>
+                              <td>321654987</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Ana Ferreira</td>
+                              <td>17-09-2023</td>
+                              <td>anaferreira@yahoo.com.br</td>
+                              <td>911234567</td>
+                              <td>963852741</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Manuel Barbosa</td>
+                              <td>22-11-2021</td>
+                              <td>manuelbarbosa@hotmail.com</td>
+                              <td>936548712</td>
+                              <td>159753486</td>
+                            </tr>
+      
+                            <tr>
+                              <td>João Fernandes</td>
+                              <td>02-07-2022</td>
+                              <td>joaofernandes@gmail.com</td>
+                              <td>911223344</td>
+                              <td>456123789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Carla Sousa</td>
+                              <td>05-04-2022</td>
+                              <td>carlasousa@yahoo.com.br</td>
+                              <td>919876543</td>
+                              <td>741852963</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Leonardo Costa</td>
+                              <td>18-02-2022</td>
+                              <td>leonardocosta@gmail.com</td>
+                              <td>917654321</td>
+                              <td>789456123</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Mariana Ribeiro</td>
+                              <td>13-08-2022</td>
+                              <td>marianaribeiro@hotmail.com</td>
+                              <td>912345678</td>
+                              <td>123456789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Bruno Silva</td>
+                              <td>01-01-2023</td>
+                              <td>brunosilva@gmail.com</td>
+                              <td>919876543</td>
+                              <td>321654987</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Cristina Santos</td>
+                              <td>09-04-2023</td>
+                              <td>cristinasantos@yahoo.com.br</td>
+                              <td>911234567</td>
+                              <td>963852741</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Pedro Castro</td>
+                              <td>06-03-2022</td>
+                              <td>pedrocastro@gmail.com</td>
+                              <td>936548712</td>
+                              <td>159753486</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Vanessa Fernandes</td>
+                              <td>22-07-2022</td>
+                              <td>vanessafernandes@hotmail.com</td>
+                              <td>911223344</td>
+                              <td>456123789</td>
+                            </tr>
+      
+                            <tr>
+                              <td>Hugo Gomes</td>
+                              <td>09-05-2022</td>
+                              <td>hugogomes@yahoo.com.br</td>
+                              <td>923445786</td>
+                              <td>475869475</td>                     
+    
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="card">
+          <div class="card-header">
+            <h4>Adicionar Cliente</h4>
+          </div>
+          <div class="card-body">
+            <div class="section-title mt-0">Nome</div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Primeiro e último nome</span>
+                </div>
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Nº telemóvel</label>
+              <input type="tel" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label>NIF</label>
+              <input type="tel" class="form-control">
+            </div>
+            
+            
+            <div class="form-group">
+             
+              
+            </div>
+            
+            <div class="form-group">
+              <label>Data de nascimento</label>
+              <input type="date" class="form-control">
+            </div>
+            
+           
+            <div class="form-group">
+              <label>Fotografia</label>
+              <input type="file" class="form-control">
+            </div>
+            
+            
+            <div class="form-group">
+              <label class="d-block">Género</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Masculino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" checked>
+                <label class="form-check-label" for="exampleRadios2">
+                  Feminino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" checked>
+                <label class="form-check-label" for="exampleRadios2">
+                  Prefere não dizer
+                </label>
+              </div>
+            </div>
+           
+            
+           
+            
+            
+          </div>
+          <div class="card-footer text-right">
+            <button class="btn btn-primary mr-1" type="submit">Guardar</button>
+            <button class="btn btn-secondary" type="reset">Reset</button>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+           
+          
+        </div>
+        <div class="settingSidebar">
+          <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+          </a>
+          <div class="settingSidebar-body ps-container ps-theme-default">
+            <div class=" fade show active">
+              <div class="setting-panel-header">Configurar painel
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Seleciona o layout</h6>
+                <div class="selectgroup layout-color w-50">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked>
+                    <span class="selectgroup-button">Claro</span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                    <span class="selectgroup-button">Escuro</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Cores do menu lateral</h6>
+                <div class="selectgroup selectgroup-pills sidebar-color">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Claro"><i class="fas fa-sun"></i></span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked>
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Escuro"><i class="fas fa-moon"></i></span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Cores</h6>
+                <div class="theme-setting-options">
+                  <ul class="choose-theme list-unstyled mb-0">
+                    <li title="white" class="active">
+                      <div class="white"></div>
+                    </li>
+                    <li title="ciano">
+                      <div class="cyan"></div>
+                    </li>
+                    <li title="preto">
+                      <div class="black"></div>
+                    </li>
+                    <li title="roxo">
+                      <div class="purple"></div>
+                    </li>
+                    <li title="laranja">
+                      <div class="orange"></div>
+                    </li>
+                    <li title="verde">
+                      <div class="green"></div>
+                    </li>
+                    <li title="vermelho">
+                      <div class="red"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="mini_sidebar_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Mini menu lateral</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="sticky_header_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10"> Header</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                  <i class="fas fa-undo"></i> Restaurar definições default
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          <a href="index.html">CidalHotel</a></a>
+        </div>
+        <div class="footer-right">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- General JS Scripts -->
+  <script src="assets/js/app.min.js"></script>
+  <!-- JS Libraies -->
+  <!-- Page Specific JS File -->
+  <script src="assets/bundles/datatables/datatables.min.js"></script>
+  <script src="assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+  <script src="assets/bundles/datatables/export-tables/dataTables.buttons.min.js"></script>
+  <script src="assets/bundles/datatables/export-tables/buttons.flash.min.js"></script>
+  <script src="assets/bundles/datatables/export-tables/jszip.min.js"></script>
+  <script src="assets/bundles/datatables/export-tables/pdfmake.min.js"></script>
+  <script src="assets/bundles/datatables/export-tables/vfs_fonts.js"></script>
+  <script src="assets/bundles/datatables/export-tables/buttons.print.min.js"></script>
+  <script src="assets/js/page/datatables.js"></script>
+  <!-- Template JS File -->
+  <script src="assets/js/scripts.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- export-table.html  21 Nov 2019 03:56:01 GMT -->
+</html>
